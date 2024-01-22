@@ -17,7 +17,6 @@ This repository contains C programs implementing various sorting algorithms and 
 | `2-O`                 | Big O notations for Selection Sort.                    |
 | `3-quick_sort.c`      | Implementation of Quick Sort algorithm with Lomuto partition scheme. |
 | `3-O`                 | Big O notations for Quick Sort.                         |
-| `main.c`              | Main program to test the sorting algorithms.            |
 
 
 ## Sorting Algorithms Tasks Overview 🌐

@@ -29,6 +29,7 @@ This repository contains C programs implementing various sorting algorithms and 
   - Best Case: O(n)
   - Average Case: O(n^2)
   - Worst Case: O(n^2)
+
 💡Bubble Sort is often considered inefficient for large datasets but is easy to understand and implement.
 
 ### 1. Insertion Sort 🪞
@@ -39,6 +40,7 @@ This repository contains C programs implementing various sorting algorithms and 
   - Best Case: O(n)
   - Average Case: O(n^2)
   - Worst Case: O(n^2)
+
 💡Insertion Sort is efficient for small datasets and partially ordered data.
 
 ### 2. Selection Sort 🎯
@@ -49,6 +51,7 @@ This repository contains C programs implementing various sorting algorithms and 
   - Best Case: O(n^2)
   - Average Case: O(n^2)
   - Worst Case: O(n^2)
+
 💡Selection Sort is simple but generally less efficient than other sorting algorithms.
 
 ### 3. Quick Sort ⚡
@@ -59,6 +62,7 @@ This repository contains C programs implementing various sorting algorithms and 
   - Best Case: O(n log n)
   - Average Case: O(n log n)
   - Worst Case: O(n^2)
+
 💡Quick Sort is widely used and performs well for large datasets.
 
 ## Lomuto Partition Scheme 🧩
@@ -74,6 +78,7 @@ The Lomuto partition scheme is a method used in the Quick Sort algorithm for div
 3. **Placing the Pivot**: Swap the pivot with the element at the position after the "smaller" pointer. The pivot is now in its final sorted position.
 
 4. **Recursion**: Recursively apply the same process to the left and right partitions.
+
 
 💡The Lomuto partition scheme is straightforward to implement, but it may not be as efficient as the Hoare partition scheme for certain datasets.
 

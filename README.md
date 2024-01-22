@@ -17,7 +17,7 @@ This repository contains C programs implementing various sorting algorithms and 
 | `2-O`                 | Big O notations for Selection Sort.                    |
 | `3-quick_sort.c`      | Implementation of Quick Sort algorithm with Lomuto partition scheme. |
 | `3-O`                 | Big O notations for Quick Sort.                         |
-
+| `100-shell_sort.c`    | Implementation of Shell Sort algorithm using Knuth sequence. |
 
 ## Sorting Algorithms Tasks Overview 🌐
 
@@ -81,4 +81,13 @@ The Lomuto partition scheme is a method used in the Quick Sort algorithm for div
 
 
 💡The Lomuto partition scheme is straightforward to implement, but it may not be as efficient as the Hoare partition scheme for certain datasets.
+
+### 4. Shell Sort - Knuth Sequence 🐚
+
+- **Function**: `void shell_sort(int *array, size_t size);`
+- **Description**: Sorts an array of integers in ascending order using the Shell sort algorithm, using the Knuth sequence.
+- **Knuth Sequence**: n+1 = n * 3 + 1 (1, 4, 13, 40, 121, ...)
+- **Expected Behavior**: Prints the array each time the interval decreases.
+
+💡Shell Sort improves on the efficiency of Bubble Sort and Insertion Sort by comparing elements that are far apart, then gradually reducing the gap between elements. The choice of gap sequence influences its performance, and the Knuth sequence is one such effective choice.
 
